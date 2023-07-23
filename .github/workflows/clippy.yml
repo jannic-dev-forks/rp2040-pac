@@ -19,6 +19,6 @@ jobs:
           command: clippy
           args: >-
             --
-            -A clippy::derive_partial_eq_without_eq
             -A clippy::explicit_auto_deref
+            -A clippy::unnecessary_cast
             -D warnings
